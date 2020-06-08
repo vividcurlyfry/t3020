@@ -20,3 +20,13 @@ Note, however, there is some missing data in some of the rows. The first few lin
 ### Errors
 
 There are three deliberate errors, marked E1, E2 and E3. Finding other (non-deliberate and unknown to me)  errors will get a bonus -- clearly add below this line in your copy of the README what the errors are and how you fixed them.
+
+### My Changes
+
+E1 Changed curr[2:9] to curr[1:9] as it wasnt counting column 1
+E2 Changed curr[i] <= prev[i] to curr[i] < prev[i] as monotonic means numbers can be equal
+E3 I could not see an obvious error here
+
+Others:
+Data on line 36 was unused, deleted it
+Changed for i in range(9) for check monotomic to for i in range(8) as T8 does not have to be monotomic.
